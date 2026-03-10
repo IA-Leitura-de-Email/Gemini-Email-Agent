@@ -12,7 +12,7 @@ CORS(app) # Permite que seu HTML/JS acesse esta API
 # ==============================
 API_KEY = "AIzaSyDgZrpBbnrliKTeZ07u9scIgCL1QMWBKG0"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-3.1-flash-lite-preview')
 
 PASTA_DOCUMENTOS = os.path.join(os.path.expanduser("~"), "Documentos", "base_conhecimento")
 
